@@ -7,13 +7,11 @@
     "url": "git://github.com/baryshev/template-benchmark.git"
   },
   "dependencies": {
-    "coffeekup": "0.3.1",
     "dot": "1.0.3",
     "dustjs-linkedin": "2.7.2",
     "eco": "1.1.0-rc-3",
     "ect": "0.5.9",
     "ejs": "2.4.1",
-    "fest": "0.8.2",
     "handlebars": "4.0.5",
     "hogan.js": "3.0.2",
     "jade": "1.11.0",
