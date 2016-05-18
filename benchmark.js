@@ -10,12 +10,10 @@ var eco = require('./eco/eco.js');
 var swig = require('./swig/swig.js');
 var hogan = require('./hogan/hogan.js');
 var dust = require('./dust/dust.js');
-var fest = require('./fest/fest.js');
 var dot = require('./dot/dot.js');
 var handlebars = require('./handlebars/handlebars.js');
-var coffeekup = require('./coffeekup/coffeekup.js');
 var underscore = require('./underscore/underscore.js');
-var gaikan = require('./gaikan/gaikan.js');
+var nunjucks = require('./nunjucks/nunjucks.js')
 
 var test = function(name, sample, cb) {
 	var i = 0;
@@ -54,9 +52,8 @@ var testUnescaped = function(name, sample, cb) {
 };
 
 var samples = [
-
+	{ name : 'nunjucks', sample : nunjucks },
 	{ name : 'Jade', sample : jade },
-	{ name : 'CoffeeKup', sample : coffeekup },
 	{ name : 'Jade without `with`', sample : jadeWithoutWith },
 	{ name : 'Handlebars.js', sample : handlebars },
 	{ name : 'Eco', sample : eco },
@@ -65,8 +62,6 @@ var samples = [
 	{ name : 'Swig', sample : swig },
 	{ name : 'doT', sample : dot },
 	{ name : 'EJS without `with`', sample : ejsWithoutWith },
-	{ name : 'Fest', sample : fest },
-	{ name : 'Gaikan', sample: gaikan },
 	{ name : 'Hogan.js', sample : hogan },
 	{ name : 'Dust', sample : dust },
 	{ name : 'ECT', sample : ect }
