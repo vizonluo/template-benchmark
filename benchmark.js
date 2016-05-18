@@ -52,19 +52,18 @@ var testUnescaped = function(name, sample, cb) {
 };
 
 var samples = [
-	{ name : 'nunjucks', sample : nunjucks },
-	{ name : 'Jade', sample : jade },
-	{ name : 'Jade without `with`', sample : jadeWithoutWith },
-	{ name : 'Handlebars.js', sample : handlebars },
-	{ name : 'Eco', sample : eco },
 	{ name : 'EJS', sample : ejs },
+	{ name : 'Jade', sample : jade },
+	{ name : 'EJS without `with`', sample : ejsWithoutWith },
+	{ name : 'nunjucks', sample : nunjucks },
+	{ name : 'Eco', sample : eco },
 	{ name : 'Underscore', sample : underscore },
 	{ name : 'Swig', sample : swig },
-	{ name : 'doT', sample : dot },
-	{ name : 'EJS without `with`', sample : ejsWithoutWith },
-	{ name : 'Hogan.js', sample : hogan },
 	{ name : 'Dust', sample : dust },
-	{ name : 'ECT', sample : ect }
+	{ name : 'Jade without `with`', sample : jadeWithoutWith },
+	{ name : 'Handlebars.js', sample : handlebars },
+	{ name : 'Hogan.js', sample : hogan },
+	{ name : 'ECT', sample : ect },
 ];
 
 var runTests = function () {
