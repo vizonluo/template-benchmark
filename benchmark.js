@@ -14,6 +14,7 @@ var dot = require('./dot/dot.js');
 var handlebars = require('./handlebars/handlebars.js');
 var underscore = require('./underscore/underscore.js');
 var nunjucks = require('./nunjucks/nunjucks.js')
+var react = require('./react/react.js')
 
 var test = function(name, sample, cb) {
 	var i = 0;
@@ -52,6 +53,7 @@ var testUnescaped = function(name, sample, cb) {
 };
 
 var samples = [
+	{ name: 'react', sample: react },
 	{ name : 'EJS', sample : ejs },
 	{ name : 'Jade', sample : jade },
 	{ name : 'EJS without `with`', sample : ejsWithoutWith },

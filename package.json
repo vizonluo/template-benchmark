@@ -7,6 +7,9 @@
     "url": "git://github.com/baryshev/template-benchmark.git"
   },
   "dependencies": {
+    "babel-core": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.9.0",
     "dot": "1.0.3",
     "dustjs-linkedin": "2.7.2",
     "eco": "1.1.0-rc-3",
@@ -15,6 +18,8 @@
     "handlebars": "4.0.5",
     "hogan.js": "3.0.2",
     "jade": "1.11.0",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
     "swig": "1.4.2",
     "underscore": "1.8.3",
     "nunjucks": "2.4.2"
